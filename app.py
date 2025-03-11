@@ -7,10 +7,6 @@ app.title("Login de Usuário")
 app.geometry("600x400")
 app.grid_columnconfigure(0, weight=1)
 app.grid_rowconfigure(0, weight=1)
-
-canvas = ctk.CTkCanvas(app)
-scrollbar = ctk.CTkScrollbar(app, command=canvas.yview)
-
 ctk.set_appearance_mode("dark")
 
 
